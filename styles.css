@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d26969;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(5, 65, 26, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.customer-section{
+    margin-bottom: 20px;
+}
+.product-section, .billing-section {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #92a728;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #232188;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #4a3caa;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
